@@ -1,20 +1,84 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab One
-    </ion-title>
+  <ion-toolbar style="background-color: black">
+    <div align="center" style="background-color: black">
+      <img src="assets/logo.jpg">
+      <ion-fab vertical="top" horizontal="left" align="right">
+          <ion-fab-button>
+            <ion-icon name="settings"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-list side="start">
+            <ion-fab-button>
+              <ion-icon name="person"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button>
+              <ion-icon name="play"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button>
+              <ion-icon name="cash"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-button>
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </ion-fab-button>
+          </ion-fab-list>
+        </ion-fab>
+    </div>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card">
-      <ion-img src="/assets/shapes.svg"></ion-img>
-      <ion-card-header>
-        <ion-card-subtitle>Get Started</ion-card-subtitle>
-        <ion-card-title>Welcome to Ionic</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
-      </ion-card-content>
-    </ion-card>
+  <ion-card>
+      <ion-item>
+          <ion-avatar item-start>
+            <img src="assets/logo.jpg">
+          </ion-avatar>
+          <h2 style="margin-left: 5%">Boteco House</h2>
+          <ion-col align-self-center text-center>
+              <ion-note>
+                4 horas atrás
+              </ion-note>
+      </ion-col>
+        </ion-item>
+  
+    <ion-card-content>
+      <img src="assets/festivalalema.jpg"/>
+      <p>Boteco House convida clientes e amigos para o festival de cerveja Alemã amanhã ás 16:00 hrs.</p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+          <ion-button icon-start clear small>
+              <ion-icon name="text"></ion-icon>
+              <div align="center">30 Comentários</div>
+            </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-card>
+      <ion-item>
+          <ion-avatar item-start>
+            <img src="assets/logo.jpg">
+          </ion-avatar>
+          <h2 style="margin-left: 5%">Boteco House</h2>
+          <ion-col align-self-center text-center>
+              <ion-note>
+                4 horas atrás
+              </ion-note>
+      </ion-col>
+        </ion-item>
+  
+    <ion-card-content>
+      <img src="assets/rodiziopetiscos.jpg"/>
+      <p>Amanhã todos estão convidados para o rodízio de petiscos.</p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+          <ion-button icon-start clear small>
+              <ion-icon name="text"></ion-icon>
+              <div align="center">304 Comentários</div>
+            </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  
 </ion-content>
